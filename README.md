@@ -10,7 +10,7 @@
 2. Train the ultra-fine entity typing model: `python typing/main.py`
 3. Generate type information of the zero-shot entity linking data: `python typing/main.py --mode generate --load_modal "./models/berttype"`
 4. Merge all type information: `python generate_types.py`
-5. Run zero-shot entity linking candatate generation: 
+5. Run zero-shot entity linking candatate generation: following <https://github.com/facebookresearch/BLINK>
 
 
 If you use our code in your work, please cite us.
