@@ -6,6 +6,9 @@
 * Prepare the ultra-fine entity typing data from <https://www.cs.utexas.edu/~eunsol/html_pages/open_entity.html>, place it under `data`
 
 ## Run
+1. Encoding type and its description: `python typing/encode_types.py`
+2. Train the ultra-fine entity typing model: `python typing/main.py`
+3. Generate type information of the zero-shot entity linking data: `python typing/main.py --mode generate --load_modal "./models/berttype"`
 
 
 If you use our code in your work, please cite us.
