@@ -1,7 +1,12 @@
 # ETZEL
 
 ## Data Preparation
-Prepare the zero-shot entity linking data following <https://github.com/facebookresearch/BLINK>, please it under `data`
+Cleate a `data` fold
+Prepare the zero-shot entity linking data following <https://github.com/facebookresearch/BLINK>, place it under `data`
+Prepare the ultra-fine entity typing data from <https://www.cs.utexas.edu/~eunsol/html_pages/open_entity.html>, place it under `data`
+
+## Run
+
 
 If you use our code in your work, please cite us.
 
