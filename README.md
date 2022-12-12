@@ -1,7 +1,7 @@
 # ETZEL
 
 ## Data Preparation
-Prepare the zero-shot entity linking data following <https://github.com/facebookresearch/BLINK>
+Prepare the zero-shot entity linking data following <https://github.com/facebookresearch/BLINK>, please it under `data`
 
 If you use our code in your work, please cite us.
 
